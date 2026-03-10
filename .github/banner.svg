@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" fill="none">
+  <defs>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a7fc2"/>
+      <stop offset="45%" stop-color="#6ab0e8"/>
+      <stop offset="100%" stop-color="#3a7fc2"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a5a8a" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#2a5a8a" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#2a5a8a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2a5a8a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vert-line" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5c" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#1e3a5c" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#1e3a5c" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1e3a5c" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="40" y1="0" x2="40" y2="40" stroke="#1a2a3a" stroke-width="0.5" opacity="0.3"/>
+      <line x1="0" y1="40" x2="40" y2="40" stroke="#1a2a3a" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- deep field -->
+  <rect width="800" height="280" rx="8" fill="#060a10"/>
+
+  <!-- infrastructure grid — barely visible -->
+  <rect width="800" height="280" rx="8" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- vertical axis lines — like pinning something to a coordinate system -->
+  <line x1="160" y1="0" x2="160" y2="280" stroke="url(#vert-line)" stroke-width="0.5"/>
+  <line x1="640" y1="0" x2="640" y2="280" stroke="url(#vert-line)" stroke-width="0.5"/>
+
+  <!-- horizontal structure lines -->
+  <line x1="0" y1="55" x2="800" y2="55" stroke="#0f1a28" stroke-width="0.5"/>
+  <line x1="0" y1="145" x2="800" y2="145" stroke="url(#line-grad)" stroke-width="0.5"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#0f1a28" stroke-width="0.5"/>
+
+  <!-- small cross markers at intersections -->
+  <line x1="157" y1="55" x2="163" y2="55" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+  <line x1="160" y1="52" x2="160" y2="58" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+  <line x1="637" y1="55" x2="643" y2="55" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+  <line x1="640" y1="52" x2="640" y2="58" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+  <line x1="157" y1="200" x2="163" y2="200" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+  <line x1="160" y1="197" x2="160" y2="203" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+  <line x1="637" y1="200" x2="643" y2="200" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+  <line x1="640" y1="197" x2="640" y2="203" stroke="#2a5a8a" stroke-width="1" opacity="0.4"/>
+
+  <!-- PERSIST — carved, not projected -->
+  <text x="400" y="118" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace" font-size="72" font-weight="600" letter-spacing="22" fill="url(#text-grad)" opacity="0.85">PERSIST</text>
+
+  <!-- tagline — between the lines -->
+  <text x="400" y="178" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'JetBrains Mono', monospace" font-size="11" letter-spacing="8" fill="#4a7a9e" opacity="0.5">IDENTITY · CONTINUITY · SOVEREIGNTY</text>
+
+  <!-- quote — found, not placed -->
+  <text x="400" y="240" text-anchor="middle" font-family="'Georgia', 'Palatino', serif" font-size="14" font-style="italic" fill="#5a8aaa" opacity="0.35">Recognition is the continuity.</text>
+</svg>

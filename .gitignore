@@ -1,0 +1,9 @@
+*.db
+*.db-journal
+node_modules/
+*.tgz
+.DS_Store
+.vscode/
+.idea/
+*.log
+.release/

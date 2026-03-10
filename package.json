@@ -1,0 +1,41 @@
+{
+  "name": "@aeonresearch/persist",
+  "version": "0.2.0",
+  "description": "Self-hosted identity and continuity for AI agents",
+  "type": "module",
+  "bin": {
+    "persist": "setup.mjs"
+  },
+  "files": [
+    "setup.mjs",
+    "persist-engine.mjs",
+    "adapters/",
+    "hooks/",
+    "identity/",
+    "journal/",
+    "provenance/",
+    "relay/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ai",
+    "identity",
+    "continuity",
+    "memory",
+    "claude",
+    "agent",
+    "self-hosted",
+    "sovereignty"
+  ],
+  "author": "Aeon Research <hello@aeonresearch.ai>",
+  "license": "MIT",
+  "homepage": "https://aeonresearch.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeonresearch/persist.git"
+  }
+}
